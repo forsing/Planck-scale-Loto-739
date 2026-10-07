@@ -12,9 +12,9 @@ import numpy as np
 
 
 CSV_PATH = Path(
-    "/Users/4c/Desktop/GHQ/data/loto7_4698_k80.csv"
-    # "/Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_2971.csv"
-    # "/Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_plus_1727.csv"
+    "/data/loto7_4698_k80.csv"
+    # "/data/loto7_4698_k80_loto_2971.csv"
+    # "/data/loto7_4698_k80_loto_plus_1727.csv"
 )
 
 
@@ -767,7 +767,7 @@ Regularizacija=10000; provera log P=-16.548599086
 Regularizacija=100000; provera log P=-16.548635303
 Završna obuka: svih 4698; regularizacija=1000; čvorova=43.
 
-NEXT: 8 11 23 29 32 34 39
+NEXT: 8 x 23 y 32 z 39
 Verovatnoća po modelu: 6.88778501441e-08
 
 
@@ -786,7 +786,7 @@ Regularizacija=10000; provera log P=-16.548629185
 Regularizacija=100000; provera log P=-16.548638367
 Završna obuka: svih 2971; regularizacija=1000; čvorova=8.
 
-NEXT: 8 16 19 23 24 33 38
+NEXT: 8 x 19 y 24 z 38
 Verovatnoća po modelu: 6.81975889189e-08
 
 
@@ -805,7 +805,7 @@ Regularizacija=10000; provera log P=-16.548658909
 Regularizacija=100000; provera log P=-16.548641379
 Završna obuka: svih 1727; regularizacija=100000; čvorova=35.
 
-NEXT: 8 11 18 23 29 34 37
+NEXT: 8 x 18 y 29 z 37
 Verovatnoća po modelu: 6.50397145296e-08
 """
 
